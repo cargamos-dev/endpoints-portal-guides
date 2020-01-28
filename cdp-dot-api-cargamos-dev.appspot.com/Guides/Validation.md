@@ -56,4 +56,8 @@ Note in this example that since there was a layer 1 error, per-item validation w
 
   
 
-Per-item errors will be reported as error on the data msgs list, and as warning on the request msgs list. Labels within brackets are reported on all messages, the possible values are DEBUG*, INFO, WARNING and ERROR (* - meant for Cargamos). This bracket labels are meant for automation, and the available values are specified on a separate document. The required verbosity may be specified using the verbose parameter at the call. Also note that validation is performed in the order specified at table 1. Finally, if the simulate parameter at the call is specified and is true, the request won’t propagate, but all the messages will be included in the response, this is meant for development purposes.
+Per-item errors will be reported as error on the data msgs list, and as warning on the request msgs list. Labels within brackets are reported on all messages, the possible values are DEBUG*, INFO, WARNING and ERROR (* - meant for Cargamos). This bracket labels are meant for automation, and the available values are specified on a separate document. 
+
+The required verbosity may be specified using the verbose parameter at the call. Also note that validation is performed in the order specified at table 1. 
+
+Finally, if the simulate parameter at the call is specified and is true, the request won’t propagate, but all the messages will be included in the response, this is meant for development purposes.
